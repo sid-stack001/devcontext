@@ -1,0 +1,6 @@
+2026-08-22 12:00:00 INFO  [analytics-worker] Batch processor initialized
+2026-08-22 12:30:00 WARN  [analytics-worker] Memory usage high: 88% heap utilized (3.5GB/4.0GB)
+2026-08-22 13:00:00 WARN  [analytics-worker] Memory usage critical: 94% heap utilized (3.76GB/4.0GB)
+2026-08-22 13:15:00 ERROR [analytics-worker] java.lang.OutOfMemoryError: Java heap space
+2026-08-22 13:15:02 ERROR [analytics-worker] Out of memory: killed process 9012 (analytics-worker)
+2026-08-22 13:15:10 ERROR [analytics-worker] Failed to process batch #441: Out of memory error

@@ -1,0 +1,10 @@
+[
+  {
+    "service": "notification-service",
+    "commit": "3c98a21",
+    "timestamp": "2026-08-18T09:30:00+00:00",
+    "author": "evan.wright",
+    "message": "Update email template formatting",
+    "diff_summary": "templates/email.html: responsive CSS tweaks"
+  }
+]

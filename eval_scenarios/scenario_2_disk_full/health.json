@@ -1,0 +1,12 @@
+{
+  "storage-service": {
+    "status": "degraded",
+    "cpu_percent": 22.0,
+    "memory_percent": 41.5,
+    "disk_percent": 98,
+    "uptime_seconds": 250000,
+    "active_db_connections": 2,
+    "max_db_connections": 20,
+    "last_updated": "2026-08-22T08:45:15+00:00"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_comment": "Add the block below into the 'mcpServers' object in your Claude Desktop config file.",
+  "_claude_desktop_config_path_macos": "~/Library/Application Support/Claude/claude_desktop_config.json",
+  "_claude_desktop_config_path_windows": "%APPDATA%\\Claude\\claude_desktop_config.json",
+
+  "mcpServers": {
+    "devcontext": {
+      "command": "python",
+      "args": [
+        "f:\\project\\devcontext\\server.py"
+      ],
+      "env": {}
+    }
+  }
+}

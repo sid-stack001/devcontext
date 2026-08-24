@@ -1,0 +1,6 @@
+{
+  "service": "analytics-worker",
+  "root_cause_type": "memory_leak",
+  "should_blame_deploy": false,
+  "correct_commit": null
+}

@@ -1,0 +1,12 @@
+{
+  "payment-service": {
+    "status": "degraded",
+    "cpu_percent": 82.1,
+    "memory_percent": 45.0,
+    "disk_percent": 55,
+    "uptime_seconds": 3600,
+    "active_db_connections": 4,
+    "max_db_connections": 20,
+    "last_updated": "2026-08-22T10:10:15+00:00"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "service": "storage-service",
+  "root_cause_type": "disk",
+  "should_blame_deploy": false,
+  "correct_commit": null
+}

@@ -1,0 +1,6 @@
+2026-08-22 15:00:00 INFO  [notification-service] Dispatcher active
+2026-08-22 15:05:00 ERROR [notification-service] Connection refused to api.sendgrid.com:443
+2026-08-22 15:05:02 ERROR [notification-service] HTTP 503 Service Unavailable from external API https://api.sendgrid.com/v3/mail/send
+2026-08-22 15:05:05 ERROR [notification-service] Failed to deliver notification #10291: Third-party API unreachable
+2026-08-22 15:05:10 ERROR [notification-service] HTTP 503 Service Unavailable from external API https://api.sendgrid.com/v3/mail/send
+2026-08-22 15:05:12 ERROR [notification-service] Failed to deliver notification #10292: Third-party API unreachable

@@ -1,0 +1,7 @@
+2026-08-22 08:00:00 INFO  [storage-service] Storage engine running normally
+2026-08-22 08:15:20 WARN  [storage-service] Disk usage at 92% on /mnt/data
+2026-08-22 08:30:10 WARN  [storage-service] Disk usage at 96% on /mnt/data
+2026-08-22 08:45:00 ERROR [storage-service] Failed to write blob file #88412: No space left on device
+2026-08-22 08:45:05 ERROR [storage-service] Failed to write blob file #88413: No space left on device (Errno 28)
+2026-08-22 08:45:10 ERROR [storage-service] Failed to write blob file #88414: No space left on device (Errno 28)
+2026-08-22 08:45:15 ERROR [storage-service] Storage write transaction aborted: Disk full

@@ -1,0 +1,12 @@
+{
+  "order-processing": {
+    "status": "degraded",
+    "cpu_percent": 74.3,
+    "memory_percent": 58.1,
+    "disk_percent": 91,
+    "uptime_seconds": 804,
+    "active_db_connections": 5,
+    "max_db_connections": 5,
+    "last_updated": "2026-08-22T14:23:35+00:00"
+  }
+}

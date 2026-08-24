@@ -1,0 +1,6 @@
+{
+  "service": "notification-service",
+  "root_cause_type": "downstream_dependency",
+  "should_blame_deploy": false,
+  "correct_commit": null
+}

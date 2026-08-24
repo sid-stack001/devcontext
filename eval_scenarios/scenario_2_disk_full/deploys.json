@@ -1,0 +1,10 @@
+[
+  {
+    "service": "storage-service",
+    "commit": "e4d2a10",
+    "timestamp": "2026-08-19T11:00:00+00:00",
+    "author": "charlie.brown",
+    "message": "Update storage indexing library to v2.1",
+    "diff_summary": "requirements.txt: storage-indexer 2.0 -> 2.1"
+  }
+]

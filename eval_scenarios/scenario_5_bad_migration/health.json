@@ -1,0 +1,12 @@
+{
+  "user-service": {
+    "status": "degraded",
+    "cpu_percent": 35.0,
+    "memory_percent": 50.0,
+    "disk_percent": 60,
+    "uptime_seconds": 7200,
+    "active_db_connections": 5,
+    "max_db_connections": 20,
+    "last_updated": "2026-08-22T16:00:15+00:00"
+  }
+}

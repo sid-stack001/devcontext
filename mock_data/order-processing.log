@@ -1,0 +1,106 @@
+2026-08-22 14:10:03 INFO  [order-processing] Service starting up (PID 18342)
+2026-08-22 14:10:04 INFO  [order-processing] Loading configuration from /etc/order-processing/config.yaml
+2026-08-22 14:10:04 INFO  [order-processing] DB connection pool initialized: size=20, host=postgres-primary.internal:5432
+2026-08-22 14:10:05 INFO  [order-processing] Redis cache connected: redis-cache.internal:6379
+2026-08-22 14:10:05 INFO  [order-processing] HTTP server listening on :8080
+2026-08-22 14:10:06 INFO  [order-processing] Health check endpoint registered at /healthz
+2026-08-22 14:10:06 INFO  [order-processing] Ready to process orders
+2026-08-22 14:10:15 INFO  [order-processing] Received order #48201 from customer cust_9921 (total: $142.50)
+2026-08-22 14:10:15 INFO  [order-processing] Order #48201 validated successfully
+2026-08-22 14:10:16 INFO  [order-processing] Order #48201 payment authorized in 312ms
+2026-08-22 14:10:16 INFO  [order-processing] Order #48201 committed to DB in 48ms
+2026-08-22 14:10:16 INFO  [order-processing] Order #48201 processed successfully
+2026-08-22 14:11:02 INFO  [order-processing] Received order #48202 from customer cust_3310 (total: $89.99)
+2026-08-22 14:11:02 INFO  [order-processing] Order #48202 validated successfully
+2026-08-22 14:11:03 INFO  [order-processing] Order #48202 payment authorized in 287ms
+2026-08-22 14:11:03 INFO  [order-processing] Order #48202 committed to DB in 51ms
+2026-08-22 14:11:03 INFO  [order-processing] Order #48202 processed successfully
+2026-08-22 14:12:44 INFO  [order-processing] Received order #48203 from customer cust_7741 (total: $315.00)
+2026-08-22 14:12:44 INFO  [order-processing] Order #48203 validated successfully
+2026-08-22 14:12:45 INFO  [order-processing] Order #48203 payment authorized in 301ms
+2026-08-22 14:12:45 INFO  [order-processing] Order #48203 committed to DB in 44ms
+2026-08-22 14:12:45 INFO  [order-processing] Order #48203 processed successfully
+2026-08-22 14:13:31 INFO  [order-processing] Received order #48204 from customer cust_5502 (total: $58.75)
+2026-08-22 14:13:31 INFO  [order-processing] Order #48204 validated successfully
+2026-08-22 14:13:32 INFO  [order-processing] Order #48204 payment authorized in 295ms
+2026-08-22 14:13:32 INFO  [order-processing] Order #48204 committed to DB in 39ms
+2026-08-22 14:13:32 INFO  [order-processing] Order #48204 processed successfully
+2026-08-22 14:14:55 INFO  [order-processing] Received order #48205 from customer cust_1187 (total: $204.20)
+2026-08-22 14:14:55 INFO  [order-processing] Order #48205 validated successfully
+2026-08-22 14:14:56 INFO  [order-processing] Order #48205 payment authorized in 318ms
+2026-08-22 14:14:56 INFO  [order-processing] Order #48205 committed to DB in 55ms
+2026-08-22 14:14:56 INFO  [order-processing] Order #48205 processed successfully
+2026-08-22 14:16:10 INFO  [order-processing] Received order #48206 from customer cust_4423 (total: $77.40)
+2026-08-22 14:16:10 INFO  [order-processing] Order #48206 validated successfully
+2026-08-22 14:16:11 INFO  [order-processing] Order #48206 payment authorized in 309ms
+2026-08-22 14:16:11 INFO  [order-processing] Order #48206 committed to DB in 47ms
+2026-08-22 14:16:11 INFO  [order-processing] Order #48206 processed successfully
+2026-08-22 14:17:22 INFO  [order-processing] Periodic stats: orders_processed=6, avg_latency=49ms, db_pool_active=3/20
+2026-08-22 14:18:05 INFO  [order-processing] Received order #48207 from customer cust_8839 (total: $129.95)
+2026-08-22 14:18:05 INFO  [order-processing] Order #48207 validated successfully
+2026-08-22 14:18:06 INFO  [order-processing] Order #48207 payment authorized in 278ms
+2026-08-22 14:18:06 INFO  [order-processing] Order #48207 committed to DB in 52ms
+2026-08-22 14:18:06 INFO  [order-processing] Order #48207 processed successfully
+2026-08-22 14:19:33 INFO  [order-processing] Received order #48208 from customer cust_2260 (total: $446.00)
+2026-08-22 14:19:33 INFO  [order-processing] Order #48208 validated successfully
+2026-08-22 14:19:34 INFO  [order-processing] Order #48208 payment authorized in 291ms
+2026-08-22 14:19:34 INFO  [order-processing] Order #48208 committed to DB in 46ms
+2026-08-22 14:19:34 INFO  [order-processing] Order #48208 processed successfully
+2026-08-22 14:20:48 INFO  [order-processing] Received order #48209 from customer cust_6614 (total: $93.60)
+2026-08-22 14:20:48 INFO  [order-processing] Order #48209 validated successfully
+2026-08-22 14:20:49 INFO  [order-processing] Order #48209 payment authorized in 305ms
+2026-08-22 14:20:49 INFO  [order-processing] Order #48209 committed to DB in 43ms
+2026-08-22 14:20:49 INFO  [order-processing] Order #48209 processed successfully
+2026-08-22 14:22:45 INFO  [order-processing] Received SIGHUP — reloading configuration
+2026-08-22 14:22:45 INFO  [order-processing] Deploy signal detected: commit=a3f9c12 by devops-bot
+2026-08-22 14:22:45 INFO  [order-processing] Draining DB connection pool (current size: 20)
+2026-08-22 14:22:46 INFO  [order-processing] DB connection pool reinitialized: size=5, host=postgres-primary.internal:5432
+2026-08-22 14:22:46 INFO  [order-processing] Configuration reload complete
+2026-08-22 14:22:47 INFO  [order-processing] Received order #48210 from customer cust_3371 (total: $211.80)
+2026-08-22 14:22:47 INFO  [order-processing] Order #48210 validated successfully
+2026-08-22 14:22:47 INFO  [order-processing] Order #48210 payment authorized in 314ms
+2026-08-22 14:22:48 ERROR [order-processing] Connection timeout to DB after 3000ms (pool_size=5, active=5/5)
+2026-08-22 14:22:48 ERROR [order-processing] Failed to process order #48210: DB timeout
+2026-08-22 14:22:51 INFO  [order-processing] Received order #48211 from customer cust_9902 (total: $67.25)
+2026-08-22 14:22:51 INFO  [order-processing] Order #48211 validated successfully
+2026-08-22 14:22:52 ERROR [order-processing] Connection timeout to DB after 3000ms (pool_size=5, active=5/5)
+2026-08-22 14:22:52 ERROR [order-processing] Failed to process order #48211: DB timeout
+2026-08-22 14:22:55 INFO  [order-processing] Received order #48212 from customer cust_4418 (total: $158.40)
+2026-08-22 14:22:55 INFO  [order-processing] Order #48212 validated successfully
+2026-08-22 14:22:56 ERROR [order-processing] Connection timeout to DB after 3000ms (pool_size=5, active=5/5)
+2026-08-22 14:22:56 ERROR [order-processing] Failed to process order #48212: DB timeout
+2026-08-22 14:22:59 INFO  [order-processing] Received order #48213 from customer cust_7723 (total: $389.99)
+2026-08-22 14:22:59 INFO  [order-processing] Order #48213 validated successfully
+2026-08-22 14:23:00 ERROR [order-processing] Connection timeout to DB after 3000ms (pool_size=5, active=5/5)
+2026-08-22 14:23:00 ERROR [order-processing] Failed to process order #48213: DB timeout
+2026-08-22 14:23:03 INFO  [order-processing] Received order #48214 from customer cust_1156 (total: $512.10)
+2026-08-22 14:23:03 INFO  [order-processing] Order #48214 validated successfully
+2026-08-22 14:23:04 ERROR [order-processing] Connection timeout to DB after 3000ms (pool_size=5, active=5/5)
+2026-08-22 14:23:04 ERROR [order-processing] Failed to process order #48214: DB timeout
+2026-08-22 14:23:07 INFO  [order-processing] Received order #48215 from customer cust_5539 (total: $44.50)
+2026-08-22 14:23:07 INFO  [order-processing] Order #48215 validated successfully
+2026-08-22 14:23:08 ERROR [order-processing] Connection timeout to DB after 3000ms (pool_size=5, active=5/5)
+2026-08-22 14:23:08 ERROR [order-processing] Failed to process order #48215: DB timeout
+2026-08-22 14:23:11 INFO  [order-processing] Received order #48216 from customer cust_8801 (total: $231.75)
+2026-08-22 14:23:11 INFO  [order-processing] Order #48216 validated successfully
+2026-08-22 14:23:12 ERROR [order-processing] Connection timeout to DB after 3000ms (pool_size=5, active=5/5)
+2026-08-22 14:23:12 ERROR [order-processing] Failed to process order #48216: DB timeout
+2026-08-22 14:23:15 WARN  [order-processing] Disk usage at 91% on /data — consider cleanup (threshold: 85%)
+2026-08-22 14:23:16 INFO  [order-processing] Received order #48217 from customer cust_2290 (total: $178.30)
+2026-08-22 14:23:16 INFO  [order-processing] Order #48217 validated successfully
+2026-08-22 14:23:17 ERROR [order-processing] Connection timeout to DB after 3000ms (pool_size=5, active=5/5)
+2026-08-22 14:23:17 ERROR [order-processing] Failed to process order #48217: DB timeout
+2026-08-22 14:23:20 INFO  [order-processing] Received order #48218 from customer cust_6647 (total: $99.00)
+2026-08-22 14:23:20 INFO  [order-processing] Order #48218 validated successfully
+2026-08-22 14:23:21 ERROR [order-processing] Connection timeout to DB after 3000ms (pool_size=5, active=5/5)
+2026-08-22 14:23:21 ERROR [order-processing] Failed to process order #48218: DB timeout
+2026-08-22 14:23:24 INFO  [order-processing] Received order #48219 from customer cust_3385 (total: $267.60)
+2026-08-22 14:23:24 INFO  [order-processing] Order #48219 validated successfully
+2026-08-22 14:23:25 ERROR [order-processing] Connection timeout to DB after 3000ms (pool_size=5, active=5/5)
+2026-08-22 14:23:25 ERROR [order-processing] Failed to process order #48219: DB timeout
+2026-08-22 14:23:28 INFO  [order-processing] Received order #48220 from customer cust_9918 (total: $83.45)
+2026-08-22 14:23:28 INFO  [order-processing] Order #48220 validated successfully
+2026-08-22 14:23:29 ERROR [order-processing] Connection timeout to DB after 3000ms (pool_size=5, active=5/5)
+2026-08-22 14:23:29 ERROR [order-processing] Failed to process order #48220: DB timeout
+2026-08-22 14:23:32 ERROR [order-processing] DB connection pool exhausted — all 5 connections in use, new requests queuing
+2026-08-22 14:23:35 INFO  [order-processing] Periodic stats: orders_processed=9, avg_latency=3041ms, db_pool_active=5/5, errors_last_60s=11

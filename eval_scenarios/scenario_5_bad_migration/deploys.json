@@ -1,0 +1,10 @@
+[
+  {
+    "service": "user-service",
+    "commit": "d4e912f",
+    "timestamp": "2026-08-22T16:00:00+00:00",
+    "author": "db-admin",
+    "message": "Apply schema migration: add user_preferences table & constraints",
+    "diff_summary": "migrations/V4__user_preferences.sql: create table user_preferences, add FK constraint to users"
+  }
+]

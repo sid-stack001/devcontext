@@ -1,0 +1,6 @@
+{
+  "service": "user-service",
+  "root_cause_type": "bad_migration",
+  "should_blame_deploy": true,
+  "correct_commit": "d4e912f"
+}

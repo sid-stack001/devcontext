@@ -1,0 +1,11 @@
+2026-08-22 10:00:00 INFO  [payment-service] Service starting up (PID 4912)
+2026-08-22 10:00:01 INFO  [payment-service] Worker thread pool initialized: size=50
+2026-08-22 10:05:00 INFO  [payment-service] Processed transaction #9901 in 45ms
+2026-08-22 10:10:00 INFO  [payment-service] Deploy signal detected: commit=f8a1c92 by ops-team
+2026-08-22 10:10:01 INFO  [payment-service] Worker thread pool reconfigured: max_workers=4
+2026-08-22 10:10:05 ERROR [payment-service] Worker pool exhausted: 4/4 threads active, request #9902 queued
+2026-08-22 10:10:06 ERROR [payment-service] Thread pool allocation timeout after 5000ms for transaction #9902
+2026-08-22 10:10:08 ERROR [payment-service] Worker pool exhausted: 4/4 threads active, request #9903 queued
+2026-08-22 10:10:09 ERROR [payment-service] Thread pool allocation timeout after 5000ms for transaction #9903
+2026-08-22 10:10:12 ERROR [payment-service] Worker pool exhausted: 4/4 threads active, request #9904 queued
+2026-08-22 10:10:15 ERROR [payment-service] Thread pool allocation timeout after 5000ms for transaction #9904

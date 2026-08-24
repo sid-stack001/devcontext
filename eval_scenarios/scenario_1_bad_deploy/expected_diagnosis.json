@@ -1,0 +1,6 @@
+{
+  "service": "payment-service",
+  "root_cause_type": "bad_deploy",
+  "should_blame_deploy": true,
+  "correct_commit": "f8a1c92"
+}

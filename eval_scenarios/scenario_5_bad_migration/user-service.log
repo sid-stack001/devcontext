@@ -1,0 +1,7 @@
+2026-08-22 15:55:00 INFO  [user-service] Service healthy
+2026-08-22 16:00:00 INFO  [user-service] Deploy signal detected: commit=d4e912f by db-admin
+2026-08-22 16:00:01 INFO  [user-service] Running database migration scripts...
+2026-08-22 16:00:05 ERROR [user-service] Query failed for user #501: relation "user_preferences" does not exist
+2026-08-22 16:00:08 ERROR [user-service] Column "user_id" in field list is ambiguous during SQL JOIN query
+2026-08-22 16:00:12 ERROR [user-service] Database migration failure: foreign key constraint violation on user_preferences_fk
+2026-08-22 16:00:15 ERROR [user-service] Failed to fetch profile for user #502: SQL execution error
