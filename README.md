@@ -35,6 +35,9 @@ Starts the stdio MCP server for connection to MCP hosts (e.g. Claude Desktop, An
 ```bash
 devcontext serve
 ```
+<img width="1259" height="626" alt="Screenshot 2026-08-24 204632" src="https://github.com/user-attachments/assets/4199c274-771f-4b85-8415-3afd9f5b21cf" />
+
+
 
 ---
 
