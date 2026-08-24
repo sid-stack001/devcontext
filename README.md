@@ -155,6 +155,14 @@ cp .env.example .env
 
 ---
 
+## Future Extensions
+
+- **Pluggable Adapters**: Connect directly to CloudWatch, Datadog, Grafana Loki, or Prometheus APIs.
+- **Probabilistic Confidence Scores**: Output root-cause probability distributions (e.g. `95% confidence: bad deploy`) instead of single deterministic strings.
+- **Automated Rollback Proposals**: Generate validated git revert commits or Kubernetes patch specs alongside the diagnosis.
+
+---
+
 ## License
 
 Distributed under the [MIT License](LICENSE).
