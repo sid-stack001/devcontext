@@ -1,5 +1,10 @@
 # DevContext
 
+
+![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-purple)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 > **DevContext is a prototype Model Context Protocol (MCP) server and CLI tool that provides AI coding assistants and engineers with runtime observability data (logs, deploys, and health metrics) to assist in incident triage.**
 
 ---
@@ -35,7 +40,8 @@ Starts the stdio MCP server for connection to MCP hosts (e.g. Claude Desktop, An
 ```bash
 devcontext serve
 ```
-<img width="1259" height="626" alt="Screenshot 2026-08-24 204632" src="https://github.com/user-attachments/assets/4199c274-771f-4b85-8415-3afd9f5b21cf" />
+<img width="1920" height="1080" alt="demo_devcontext" src="https://github.com/user-attachments/assets/aaad8db0-bfff-4301-ac6d-c825fbe08aa6" />
+
 
 
 
